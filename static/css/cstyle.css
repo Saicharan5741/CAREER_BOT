@@ -1,0 +1,77 @@
+/*--------course------------*/
+
+
+
+.he {
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+
+     width: 1200px;
+    height: 1400px;
+}
+
+.name{
+
+        font-size: 40px;
+        background: -webkit-linear-gradient(#eee, #886680);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+
+}
+.img img{
+    width: 350px;
+    float: right;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 50px;
+   
+}
+
+.para{
+    font-size: 20px;
+    color: #eee;
+    text-align: center;
+}
+.role{
+    text-align:initial;
+    font-size: 25px;
+    color:rgb(228, 230, 168);
+    font-style:var(--primaryBoxShadow);
+    background-color: #8EC5FC;
+    background: linear-gradient(to right, #8EC5FC 0%, #E0C3FC 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+
+.listnames{
+
+
+        display: grid;
+        list-style-type: none;
+      grid-template-columns: repeat(3,1fr);
+      grid-gap: 10px;
+      list-style-type: none;
+      color: red;
+      margin-top: 50px;
+
+}
+
+.listnames li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+
+
+}
+.listnames li a {
+    text-decoration: none;
+    color: wheat;
+}
+.listnames li a:hover{
+    box-shadow: 0 0 20px 0px rosybrown;
+
+}

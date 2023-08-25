@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device_width,initial-scale=1.0">
+        <title>Home |Career Atlas  </title>
+           <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="static/images/1211.png" width="50px" height="40px" ></a>
+            <h1  class="ca">Career Atlas</h1>
+           
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"  onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="/course.html">Course</a></li>
+
+                    <li><a href="jobs.html">Jobs</a></li>
+                    <li><a href="/login">Logout</a>
+
+
+
+</li>
+
+                </ul>
+                <div class="user-info" ">
+                    {% if 'email' in session %}
+                        <span style="font-weight: bold; color: pink;font:small-caps;; " >Welcome, {{ session['email'] }}!</span>
+                    {% else %}
+                        <span style="font-style: italic; color:pink;">Not logged in</span>
+                    {% endif %}
+                </div>
+                
+
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Welcome to Career Atlas</h1>
+            <p>The project aims to develop an AI-based chatbot for career guidance and course recommendation.
+                 The chatbot utilizes natural language processing and machine learning algorithms to interact with users, understand their career aspirations, and suggest suitable courses and career paths. The system is designed to provide personalized recommendations based on the user's educational background, skills, and interests. </p>
+            <a href="About.html" class="hero-btn">Visit us to know more</a>     
+
+        </div>
+    </section>
+<!-------Course---------->
+<section class="course">
+    <h1>Roadmaps We offer </h1>
+    <p class="para">we understand that choosing the right career path can be overwhelming and confusing.<br>
+        Our roadmaps are designed to provide comprehensive guidance on different subjects, courses, and jobs.<br>
+        We also provide personalized guidance to individuals, taking into account their interests, skills, and goals, to help them make informed decisions about their careers.<br>
+        </p>
+        <div class="row">
+            <div class="course-col">
+            
+                <h3>What to study..?</h3>
+                <p>The study of engineering will not only provide good exposure but prepare students for expertise in various fields of work in the future. The skills, knowledge and understanding they gained throughout this course pave a good scope for their future. One can opt to work abroad in prestigious companies like Microsoft, Google, Intel and much more.</p>
+
+            </div>
+            <div class="course-col">
+                <h3>How to study..?</h3>
+                <p>Many students don't know how to kick start their preperation.They'll search for a context or a roadmap of how to study a particular subject, for a professional certificate, for a job and so on.. The skills, knowledge and understanding they gained throughout this course pave a good scope for their future.</p>
+                
+            </div>
+            <div class="course-col">
+                <h3>Jobs offered </h3>
+                <p> By understanding the different job opportunities for engineers and their requirements, you can decide if engineering is a suitable career for you. In this article, we outline some of the most popular types of engineering careers, rank them by salary and explore their duties and market demand.</p>
+            </div>
+           
+
+        </div>
+
+
+</section>
+
+<!----------about chatbot--------->
+<section class="aiguide">
+    <h1>Career guidance with AI</h1>
+    <h3>The roadmap to your dream job</h3>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="static/images/AI3.png">
+            <h3>Personalized Recommendations</h3>
+                </div>
+                <div class="campus-col">
+                    <img src="static/images/AI52.jpg">
+                    <h3>&nbsp;&nbsp;&nbsp;&nbsp;Job Requirements</h3>
+                        </div>
+                        <div class="campus-col">
+                            <img src="static/images/careerplanning.jpeg">
+                            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Career Planning</h3> </h3>
+                                </div>
+    </div>
+</section>
+
+
+<!-------------REVIEWS----------->
+
+<section class="reviews">
+    <h1> What our Students Say</h1>
+    <p>Here are some reviews of our students who reffered our website</p>
+    <div class="row">
+        <div class="rev-col">
+            <img src="static/images/male1.jpg">
+            <div>
+                <p>This site gave me a complete roadmap of my career.<br> their road maps representations are really helpfull</p><br>
+                <h3>Jack sparrow</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        
+        <div class="rev-col">
+            <img src="static/images/female.jfif">
+            <div>
+                <p>This site is very helpfull
+                    Their content is spot on<br>
+                    images of roadmap is very clear
+                    UI is also good
+                </p>
+                <h3>Scarlet Witch</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+       
+    </div>
+</section>
+
+
+
+
+
+
+
+    <!--Js for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+    <!---------Footer-->
+    <section class="footer">
+
+        <section class="chatbot">
+            <div class="container">
+                <div class="chatbox">
+                    <div class="chatbox__support">
+                        <div class="chatbox__header">
+                            <div class="chatbox__image--header">
+                                <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                            </div>
+                            <div class="chatbox__content--header">
+                                <h4 class="chatbox__heading--header">Chat support</h4>
+                                <p class="chatbox__description--header">Hi. My name is Sam. How can I help you?</p>
+                            </div>
+                        </div>
+                        <div class="chatbox__messages">
+                            <div></div>
+                        </div>
+                        <div class="chatbox__footer">
+                            <input type="text" placeholder="Write a message...">
+                            <button class="chatbox__send--footer send__button">Send</button>
+                        </div>
+                    </div>
+                    <div class="chatbox__button">
+                        <button><img src="static/images/chatbox-icon.svg" /></button>
+                    </div>
+                </div>
+            </div>
+            
+                <script src="static/js/app.js"></script>
+        
+        
+        
+        </section>
+        
+        <h4>Follow us on</h4>
+        <div class="icons">
+            <a href=" https://twitter.com/Saichar74746119?t=x5Cniv_5ywChwB83PhTa6A&s=08">
+            <i class="fa fa-twitter" ></i></a>
+
+            <a href="https://www.linkedin.com/in/sai-charan-891775214">
+            <i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/Sairapaka7396">
+            <i class="fa fa-github"></i></a>
+        </div>
+    </section>
+
+</body>
+</html>

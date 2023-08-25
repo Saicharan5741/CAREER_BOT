@@ -1,0 +1,131 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "how do you help"
+      ],
+      "responses": [
+        "We recommend courses for you..."
+      ]
+    },
+    {
+      "tag": "coursepython",
+      "patterns": [
+        "python",
+        "pyton",
+        "Python",
+        "recommend courses for python"
+      ],
+      "responses": [
+        "You can learn from YouTube/Telusko/Python for Beginners, for free",
+        "For certification, you may check Cisco Netacad or Infosys Springboard"
+      ]
+    },
+    {
+      "tag": "coursejava",
+      "patterns": [
+        "java",
+        "Jav",
+        "recommend courses for java"
+      ],
+      "responses": [
+        "You can learn from YouTube/Telusko/Java for Beginners, for free",
+        "For certification, refer Udemy courses which were uploaded a year before"
+      ]
+    },
+    {
+      "tag": "examtcs",
+      "patterns": [
+        "tcsnqt",
+        "TCSNQT",
+        "TCS NQT"
+      ],
+      "responses": [
+        "Tata Consultancy Services (TCS) released the notification for TCS NQT (National Qualifier Test) for the July Cycle on 1st June 2023. The last date for applying is 4th July 2023. The Exam will be held on 15th July 2023."
+      ]
+    },
+    {
+      "tag": "examinfytq",
+      "patterns": [
+        "infytq",
+        "INFYTQ",
+        "infy"
+      ],
+      "responses": [
+        "InfyTQ Certification Program, no specific dates released yet. We will update you once they are released."
+      ]
+    },
+    {
+      "tag": "examdeloitte",
+      "patterns": [
+        "deloitte",
+        "deloite",
+        "delite"
+      ],
+      "responses": [
+       "2023, 2022, 2021 Batch Freshers can hereby apply for the Deloitte Off Campus Drive. Deloitte is also offering IT Internship Jobs and vacancies for entry-level engineers."
+      ]
+    },
+    {
+      "tag": "coursedevops",
+      "patterns": [
+        "devops",
+        "devop",
+        "Devops",
+        "recommend courses for devops"
+      ],
+      "responses": [
+        " Then the most important tool of DevOps is Build Tool that is Jenkins. Do go in depth of this tool as this would be mostly asked in interviews. Then I would suggest to dive into Containerization- Master Docker and do get atleast basic knowledge of Kubernetes. Next is a Configuration Management Tool which can be Chef, Puppet, Ansible or Salt. "
+      ]
+    },
+    {
+      "tag": "courseiot",
+      "patterns": [
+        "IOT",
+        "Internet of Things",
+        "internet of things"
+      ],
+      "responses": [
+       "You can begin with a Small Project,Have a good Knowledge of the Internet,Programming Language to be Focused On,Getting Familiar With Sensors,Joining an Online Course can Always Help"
+      ]
+    }
+
+
+
+
+
+  ]
+}
+
