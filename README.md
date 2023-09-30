@@ -23,6 +23,11 @@ In today's fast-paced world, choosing a career path and staying informed about t
 - **Study Flowcharts**: For students struggling with particular subjects, we've created a unique section of flowcharts that break down the study process. These flowcharts provide step-by-step guidance on how to study and excel in specific subjects.
 
 This README will guide you through the installation and usage of our Career Guidance Website.
+##Screenshots
+![1](https://github.com/Saicharan5741/CAREER_BOT/blob/master/static/images/p1.jpeg)
+![2](https://github.com/Saicharan5741/CAREER_BOT/blob/master/static/images/p2.jpeg)
+![3](https://github.com/Saicharan5741/CAREER_BOT/blob/master/static/images/p3.jpeg)
+
 
 ## Features
 
